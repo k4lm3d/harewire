@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>404 Not Found</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Harewire Bot — Nousagi Gang</title>
 
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./neon-glow.css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css" />
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="./neon-glow.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+<!-- header -->
+
   <div class="navbar-dark text-white">
     <div class="container">
       <nav class="navbar px-0 navbar-expand-lg navbar-dark">
-        <div class="navbar-brand text-darkblue text-mono cursor-progress">
-          <span class="text-success">ambot</span>@web:~$&nbsp;ls<span class="vim-caret cursor-text">&nbsp;</span>
+        <div class="navbar-brand text-darkblue text-spacey text-mono cursor-progress">
+         <span id="terminal1" class="text-success"></span><span id="terminal2"></span><span class="vim-caret cursor-text">&nbsp;</span>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,14 +33,16 @@
             <a href="./status.html" title="Logs" class="p-3 text-decoration-none text-darkgrey hover-text-secondary">
               ./<span class="text-secondary">status</span>.exe
             </a>
-            <a href="#!" title="Updates" class="p-3 text-decoration-none text-darkgrey hover-text-secondary">
+            <!-- <a href="#!" title="Updates" class="p-3 text-decoration-none text-darkgrey hover-text-secondary">
               ./<span class="text-secondary">updates</span>.py
-            </a>
+            </a> -->
           </div>
         </div>
       </nav>
     </div>
   </div>
+
+<!-- contents -->
 
   <div class="jumbotron bg-transparent mb-0 radius-0 cursor-default">
     <div class="container">
@@ -70,12 +75,14 @@
     </div>
   </div>
 
+<!-- footer -->
+
   <div class="container py-5 cursor-default">
     <p class="text-mono text-darkblue">
       <small>
         <span id="currentYear"></span><br>
-        <span id="currentVersion"></span><br>
-        <span id="currentTheme"></span><br>
+        <span id="currentVersion"></span> |
+        <span id="currentTheme"></span> |
         <span id="moreFooterText"></span>
       </small>
     </p>

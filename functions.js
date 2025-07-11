@@ -25,6 +25,20 @@ document.addEventListener("mousedown", e => {
   }
 });
 
+//////////////////////////////////////////////////
+
+// Display Text Terminal
+const terminal1 = "harewire",
+      terminal2 = "bot",
+      showTerminal1 = `${terminal1}`,
+      showTerminal2 = `@${terminal2}:~$&nbsp;ls`;
+
+if (terminal1 != null) {
+  document.getElementById("terminal1").innerHTML = showTerminal1.toString();
+  document.getElementById("terminal2").innerHTML = showTerminal2.toString();
+} else {
+  document.getElementById("terminal1").innerHTML = showTerminal1.toString();
+}
 
 //////////////////////////////////////////////////
 
@@ -58,7 +72,7 @@ const u = new Date("2024"),
       x = u.getFullYear(),
       y = w.getFullYear(),
       copyR = "Copyright &COPY;",
-      authorName = "K4LM3D",
+      authorName = "Harewire Bot by Nousagi Gang",
       showYear1 = `${copyR} ${x} ${authorName}`,
       showYear2 = `${copyR} ${x}-${y} ${authorName}`;
 
